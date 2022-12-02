@@ -19,8 +19,18 @@ public class Practica2 {
 
     public static void main(String[] args) {
         // TODO code application logic here
-        String palabra = ent.nextLine();
-        System.out.println("hola");
+        int opc;
+        do{
+            System.out.println("Selecciona una opcion:");
+            System.out.println("1. AFD numero real");
+            System.out.println("2. AFD detecta par de ceros y sin 1's sucesivos");
+            System.out.println("3. AFD dos o mas simbolos consecutivos iguales para {a, b, c, d}");
+            System.out.println("4. Automata libre");
+            System.out.println("5. Salir");
+            opc=ent.nextInt();
+        }while(opc!=5);
+                
+        
 
     }
     
