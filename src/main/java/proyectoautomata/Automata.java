@@ -4,13 +4,20 @@
  */
 package proyectoautomata;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author salvatorecoscab
  */
+
 public class Automata {
-    private int id;
-    private boolean estado;
     
+    private ArrayList<Estado> estados = new ArrayList();
+    public void GeneraAutomata1(){
     
+    }
+    public boolean VerificaCadena(String cadena){
+        return false;
+    }
 }

@@ -29,8 +29,15 @@ public class Practica2 {
             System.out.println("5. Salir");
             opc=ent.nextInt();
         }while(opc!=5);
-                
-        
+        Alfabeto digitos=new Alfabeto();
+        digitos.GeneraAlfabetoDigitos(); 
+        Alfabeto binario=new Alfabeto();
+        binario.GeneraAlfabetoBinario();  
+        Alfabeto vocales=new Alfabeto();
+        vocales.GeneraAlfabetoVocalesMinuscolas();
+        digitos.MuestraElementos();
+        binario.MuestraElementos();
+        vocales.MuestraElementos();
 
     }
     
