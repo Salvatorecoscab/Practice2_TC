@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package proyectoautomata;
-import java.util.ArrayList;
+import java.util.ArrayLisst;
 /**
  *
  * @author salvatorecoscab
