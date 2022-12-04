@@ -3,13 +3,13 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package proyectoautomata;
-import java.util.ArrayList;
+import java.util.HashSet;
 /**
  *
  * @author salvatorecoscab
  */
 public class Alfabeto {
-    private final ArrayList<Character> elem = new ArrayList<>();
+    private final HashSet<Character> elem = new HashSet<>();
     public void GeneraAlfabetoDigitos(){
         if(this.elem.isEmpty()){
         for(char c='0';c<='9';c++){

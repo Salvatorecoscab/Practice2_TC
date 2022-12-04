@@ -4,7 +4,7 @@
  */
 package proyectoautomata;
 
-import java.util.ArrayList;
+import java.util.HashSet;
 
 /**
  *
@@ -13,10 +13,21 @@ import java.util.ArrayList;
 
 public class Automata {
     
-    private ArrayList<Estado> estados = new ArrayList();
-    public void GeneraAutomata1(){
+    private HashSet<Estado> estados = new HashSet();
+    private Alfabeto a;
+    private Funciones;
+    private Estado q0;
+    private HashSet<Estado> estadosaceptacion = new HashSet();
     
+    
+    
+    public boolean Transiciona(String cadena, Estado actual,HashSet <Estado> edo,Alfabeto a){
+        for(Estado e: edo){
+            Transiciona();
+        }
+        return a.contains(elem);
     }
+    
     public boolean VerificaCadena(String cadena){
         return false;
     }
